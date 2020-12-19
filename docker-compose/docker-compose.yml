@@ -13,7 +13,7 @@ services:
     ports:
       - "5001:5001"
     volumes:
-      - ./data:/root/.local/share/buku
+      - /root/.local/share/buku:/root/.local/share/buku
 
   nginx:
     image: nginx:alpine

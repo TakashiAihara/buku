@@ -2,7 +2,7 @@ version: '3.7'
 
 services:
   bukuserver:
-    build: ../
+    image: bukuserver/bukuserver
     restart: unless-stopped
     environment:
       - BUKUSERVER_PER_PAGE=100
